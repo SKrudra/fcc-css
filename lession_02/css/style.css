@@ -1,0 +1,31 @@
+body {
+	font-size: 22px;
+}
+
+/* multiple selecters */
+h1, h3 {
+	color: blue;
+}
+
+p {
+	color: purple;
+}
+
+/* nested selecters */
+p span {
+	text-text-transform: uppercase;
+	background-color: gold;
+}
+
+.highligh {
+	text-text-transform: uppercase;
+	background-color: gold;
+}
+
+.gray {
+	color: gray;
+}
+
+#second {
+	font-style: italic;
+}
