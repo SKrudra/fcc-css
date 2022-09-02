@@ -1,0 +1,28 @@
+/* select all style */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh; /* of view-port height */
+}
+
+h1 {
+	border: 2px dashed red;
+	width: 50%; /* it's always relative */
+	font-size: 3rem;
+	padding: 0.5em; /* of the element size */
+}
+
+
+
+
+p {
+	font-size: 2rem; /* of root element size */
+	width: 40ch; /* character */
+}
+
+
+/* vw will create a horizontal scroll if the page has a vertical scroll */
