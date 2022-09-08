@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+	padding: 10%;
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif; /* external font from google fonts */
+}
+
+a {
+	color: hsl(207, 44%, 49%);
+}
+
+/* the order matters */
+a:visited { /* psudo class */
+	color: purple;
+}
+
+a:hover, a:active {
+	color: hsl(207, 44%, 49%, 0.8); /* change color only with the opacity */
+	background: gold;
+}
+
+a:active {
+	color: red;
+}
